@@ -1,0 +1,19 @@
+while (i < h)
+	while(j < w)
+		while(k < total object)
+			object[k]
+			if (t < min_t)
+				calc_shadow
+			k++
+
+		j++
+	}
+	i++
+}
+
+
+end color = I * cosine(O) * C + A
+I = Light intensity
+O = angle between normal and light ray/shadow ray
+C = Color of object
+A = Ambient color * ambient intensity

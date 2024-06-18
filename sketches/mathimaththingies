@@ -1,0 +1,46 @@
+Sphere:
+
+discriminant = y^2 - 4xz
+
+if (discriminant < 0)
+	rtn -1
+else
+	rtn -y - sqrt(y^2 - 4xz) / 2x
+
+x = b*b
+y = 2b * (A - C)
+z = (A - C) * (A - C) - r^2
+
+C == center of sphere
+r == radius of sphere
+
+A == origin of ray
+b == direction of ray
+
+
+Plane:
+
+denom = b * n
+
+if (denom > 0.000001)
+	rtn (P - A) * n / denom
+else 
+	rtn false
+
+P == point on plane
+n == normal of plane
+
+A == origin of ray
+b == direction of ray
+
+Cylinder:
+
+
+
+C == center of base of cylinder
+n == normal of cylinder
+r == raius of cylinder
+h == height of cylinder
+
+A == origin of ray
+b == direction of ray

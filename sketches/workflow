@@ -1,0 +1,8 @@
+Parser 
+	read file, checks variables and input objects in world file
+
+
+ray caster
+intersect per type
+	sphere, plane, cylinder
+
